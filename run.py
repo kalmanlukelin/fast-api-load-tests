@@ -142,8 +142,8 @@ def test_loading(num_of_users: int, spawn_rate: int, running_time: int, result_f
 
     _write_csv_files(env, result_folder)
     make_archive(output_file_name, output_file_type, result_folder)
-    _upload_to_casper(f"{output_file_name}.{output_file_type}",
-                      f"{output_file_path}.{output_file_type}")
+    # _upload_to_casper(f"{output_file_name}.{output_file_type}",
+    #                   f"{output_file_path}.{output_file_type}")
 
 
 if __name__ == "__main__":

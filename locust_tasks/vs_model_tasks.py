@@ -132,6 +132,7 @@ class MultiDataImageModelTask(TaskSet):
             body = {
                 "features": features,
                 file_type: {"data": image_byte.decode()},
+                "maxResults": 5
             }
             request_bodies.append(body)
         return request_bodies
