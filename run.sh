@@ -6,7 +6,7 @@ export MODEL_NAME="ic"
 # export SERVICE_NAMESPACE="test"
 # export NUMBER_OF_USERS=1
 # export SPAWN_RATE=1
-export RUNNING_TIME=2000
+export RUNNING_TIME=3000
 # export IMAGE_VERSION="1.0.0"
 # export PRINCIPAL="user_principal"
 
