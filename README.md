@@ -3,10 +3,10 @@
 The following are the steps to launch load testing for fast api. `run.sh` contains main execution logic to start load testing for Fast API. To change running time, change `export RUNNING_TIME=3000` to the number needed which is in seconds.
 ```
 # Set virtual environment for load testing
-$ python -m venv venv
+$ python3 -m venv venv
 
 # Install related packages
-$ source venv/bin/activate
+$ pip3 install -r requirements.txt
 
 # Launch virtual environment
 $ source venv/bin/activate
