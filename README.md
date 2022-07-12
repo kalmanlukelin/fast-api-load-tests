@@ -4,4 +4,8 @@ run.sh contains main execution logic to start load testing for Fast API. To chan
 ```
 # To start the load testing
 $ ./run.sh
+
+
+# Tbe following is URL to view the performance metrics from locust web UI
+$ http://localhost:8089/
 ```
